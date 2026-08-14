@@ -28,6 +28,7 @@ Raw and processed data files are not included in this repository, due to file si
 
 ```
 notebooks/     Analysis pipeline (run in order)
+models/        Trained model checkpoints (GAT, concatenation and cross-attention fusion)
 results/       Metrics, validation outputs, and figure source data
 LICENSE        MIT
 README.md
