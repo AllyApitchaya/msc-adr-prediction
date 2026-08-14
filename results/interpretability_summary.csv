@@ -1,0 +1,2 @@
+attention_analysis,shap_dimensions,occlusion_max_effect,pos_score_mean,neg_score_mean,score_separation
+Cross-attention weights show atom-level relevance per ADR,20,0.08702880144119263,0.847452342951973,0.8098924851125003,0.03755985783947269

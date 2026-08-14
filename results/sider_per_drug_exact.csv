@@ -1,0 +1,14 @@
+drug,positives,mappable,confirmed,precision
+nateglinide,8,7,5,0.714
+pioglitazone,284,107,53,0.495
+glimepiride,296,99,49,0.495
+glipizide,270,95,43,0.453
+sitagliptin,273,100,44,0.44
+glyburide,70,28,12,0.429
+metformin,2853,312,106,0.34
+repaglinide,121,51,17,0.333
+saxagliptin,69,40,11,0.275
+canagliflozin,372,112,30,0.268
+dapagliflozin,994,228,58,0.254
+empagliflozin,614,173,31,0.179
+linagliptin,349,115,15,0.13

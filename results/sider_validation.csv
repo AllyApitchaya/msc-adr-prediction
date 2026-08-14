@@ -1,0 +1,2 @@
+n_drugs_total,n_drugs_in_sider,n_positive_pairs,n_mappable_pairs,n_confirmed_by_sider,precision_vs_sider,recall_on_sider,coverage,n_vocab_overlap,n_fuzzy_matches
+15,13,6621,1686,539,0.31969157769869516,0.5697674418604651,0.2546443135478024,328,99

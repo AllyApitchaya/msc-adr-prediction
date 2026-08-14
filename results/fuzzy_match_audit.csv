@@ -1,0 +1,100 @@
+our_term,sider_term,similarity,antonym_flag
+neonatal disorder,mental disorder,0.8125,False
+respiratory tract congestion,respiratory tract infection,0.8364,False
+abdominal pain lower,abdominal pain upper,0.85,False
+autoimmune nephritis,autoimmune hepatitis,0.85,False
+blood iron increased,blood urea increased,0.85,False
+respiratory disorder,respiratory distress,0.85,False
+gastrointestinal carcinoma,gastrointestinal pain,0.8511,False
+blood sodium increased,blood potassium increased,0.8511,False
+brain neoplasm malignant,neoplasm malignant,0.8571,False
+hypersomnia,hypertonia,0.8571,False
+hemiparaesthesia,paraesthesia,0.8571,False
+aspartate aminotransferase increased,alanine aminotransferase increased,0.8571,False
+laryngitis,pharyngitis,0.8571,False
+blood cyanide increased,blood creatinine increased,0.8571,False
+angioplasty,angiopathy,0.8571,False
+anal haemorrhage,retinal haemorrhage,0.8571,False
+pyuria,polyuria,0.8571,False
+renal function test abnormal,liver function test abnormal,0.8571,False
+spinal disorder,skin disorder,0.8571,False
+gastrointestinal injury,gastrointestinal pain,0.8636,False
+ear infection fungal,genital infection fungal,0.8636,False
+blood pressure increased,blood urea increased,0.8636,False
+biliary tract disorder,urinary tract disorder,0.8636,False
+bundle branch block right,bundle branch block,0.8636,False
+drug hypersensitivity,hypersensitivity,0.8649,False
+blood pressure diastolic increased,blood pressure systolic decreased,0.8657,True
+postrenal failure,renal failure,0.8667,False
+skin infection,kidney infection,0.8667,False
+hyperlipasaemia,hyperlipidaemia,0.8667,False
+foetal disorder,mental disorder,0.8667,False
+spleen disorder,speech disorder,0.8667,False
+urinary tract infection fungal,urinary tract infection,0.8679,False
+hyperthermia,hypothermia,0.8696,True
+musculoskeletal chest pain,musculoskeletal pain,0.8696,False
+bandaemia,anaemia,0.875,False
+adrenal disorder,retinal disorder,0.875,False
+viral infection,vaginal infection,0.875,False
+acute myocardial infarction,myocardial infarction,0.875,False
+lung neoplasm malignant,neoplasm malignant,0.878,False
+hypokalaemia,hyperkalaemia,0.88,True
+hypervolaemia,hypovolaemia,0.88,True
+intestinal haemorrhage,gastrointestinal haemorrhage,0.88,False
+electrocardiogram q wave abnormal,electrocardiogram abnormal,0.8814,False
+electrocardiogram t wave abnormal,electrocardiogram abnormal,0.8814,False
+emotional disorder,retinal disorder,0.8824,False
+bundle branch block left,bundle branch block,0.8837,False
+urinary tract infection viral,urinary tract infection,0.8846,False
+genitourinary tract infection,urinary tract infection,0.8846,False
+eyelid disorder,eye disorder,0.8889,False
+sinus disorder,skin disorder,0.8889,False
+hypernatraemia,hyponatraemia,0.8889,True
+hypercalcaemia,hyperkalaemia,0.8889,False
+hypertrichosis,hypotrichosis,0.8889,True
+asthenopia,asthenia,0.8889,False
+hyperaesthesia,hypoaesthesia,0.8889,True
+blood glucagon increased,blood glucose increased,0.8936,False
+prerenal failure,renal failure,0.8966,False
+echocardiogram abnormal,electrocardiogram abnormal,0.898,False
+upper respiratory tract inflammation,upper respiratory tract infection,0.8986,False
+blood urea decreased,blood urea increased,0.9,True
+hepatitis e,hepatitis,0.9,False
+hepatitis a,hepatitis,0.9,False
+blood lead increased,blood urea increased,0.9,False
+gastrointestinal polyp haemorrhage,gastrointestinal haemorrhage,0.9032,False
+genital disorder,mental disorder,0.9032,False
+lower gastrointestinal haemorrhage,gastrointestinal haemorrhage,0.9032,False
+upper gastrointestinal haemorrhage,gastrointestinal haemorrhage,0.9032,False
+red blood cell count increased,white blood cell count increased,0.9032,False
+vitamin d deficiency,vitamin b12 deficiency,0.9048,False
+mental impairment,renal impairment,0.9091,False
+menstrual disorder,mental disorder,0.9091,False
+lower respiratory tract infection,upper respiratory tract infection,0.9091,False
+urine output decreased,urine output increased,0.9091,True
+hypophosphataemia,hyperphosphataemia,0.9143,True
+alcohol use,alcohol abuse,0.9167,False
+rectal haemorrhage,retinal haemorrhage,0.9189,False
+blood potassium decreased,blood potassium increased,0.92,True
+body temperature increased,body temperature decreased,0.9231,True
+blood creatinine decreased,blood creatinine increased,0.9231,True
+blood phosphorus decreased,blood phosphorus increased,0.9231,True
+vasodilatation,vasodilation,0.9231,False
+diabetic neuropathy,diabetic nephropathy,0.9231,False
+blood pressure diastolic decreased,blood pressure systolic decreased,0.9254,False
+vitamin b6 deficiency,vitamin b12 deficiency,0.9302,False
+anaphylactic reaction,anaphylactoid reaction,0.9302,False
+renal disorder,retinal disorder,0.9333,False
+orthostatic hypertension,orthostatic hypotension,0.9362,True
+white blood cell count decreased,white blood cell count increased,0.9375,True
+blood pressure systolic increased,blood pressure systolic decreased,0.9394,True
+low density lipoprotein decreased,low density lipoprotein increased,0.9394,True
+urogenital infection fungal,genital infection fungal,0.9412,False
+high density lipoprotein increased,high density lipoprotein decreased,0.9412,True
+glycosylated haemoglobin increased,glycosylated haemoglobin decreased,0.9412,True
+glomerular filtration rate increased,glomerular filtration rate decreased,0.9444,True
+hyperphosphatasaemia,hyperphosphataemia,0.9474,False
+genital infection female,genital infection male,0.9565,False
+blood creatine increased,blood creatinine increased,0.96,False
+taste disorder,taste disorders,0.9655,False
+vitamin b1 deficiency,vitamin b12 deficiency,0.9767,False

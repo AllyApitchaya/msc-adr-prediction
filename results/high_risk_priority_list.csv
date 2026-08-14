@@ -1,0 +1,151 @@
+drug,rank,adr,risk_score
+acarbose,1,Systolic hypertension,0.8763847947120667
+acarbose,2,Crying,0.8607685565948486
+acarbose,3,General physical health deterioration,0.8586152195930481
+acarbose,4,Dizziness,0.8428528308868408
+acarbose,5,Moaning,0.8395715951919556
+acarbose,6,Nausea,0.8353978395462036
+acarbose,7,Hypertension,0.8237269520759583
+acarbose,8,Fall,0.8105840086936951
+acarbose,9,Hypoglycaemia,0.7872177958488464
+acarbose,10,Blood glucose decreased,0.7847752571105957
+canagliflozin,1,Dizziness,0.9325211644172668
+canagliflozin,2,Crying,0.9261995553970337
+canagliflozin,3,Moaning,0.9212871789932251
+canagliflozin,4,Nausea,0.9143417477607727
+canagliflozin,5,Fall,0.9121623635292053
+canagliflozin,6,Hypertension,0.910159707069397
+canagliflozin,7,Systolic hypertension,0.9073663949966431
+canagliflozin,8,Hypoglycaemia,0.9031708836555481
+canagliflozin,9,Hypotension,0.8990903496742249
+canagliflozin,10,Blood glucose decreased,0.8904056549072266
+dapagliflozin,1,Dizziness,0.932193398475647
+dapagliflozin,2,Crying,0.926689863204956
+dapagliflozin,3,Moaning,0.9209367036819458
+dapagliflozin,4,Nausea,0.9151577949523926
+dapagliflozin,5,Fall,0.9124276638031006
+dapagliflozin,6,Hypoglycaemia,0.9093745946884155
+dapagliflozin,7,Hypertension,0.9085503220558167
+dapagliflozin,8,Hypotension,0.905161440372467
+dapagliflozin,9,Systolic hypertension,0.9048612713813782
+dapagliflozin,10,Blood glucose decreased,0.8928221464157104
+empagliflozin,1,Dizziness,0.9339905381202698
+empagliflozin,2,Crying,0.9285315275192261
+empagliflozin,3,Moaning,0.924828290939331
+empagliflozin,4,Nausea,0.9155460000038147
+empagliflozin,5,Fall,0.9152523279190063
+empagliflozin,6,Hypertension,0.9125929474830627
+empagliflozin,7,Systolic hypertension,0.9085649251937866
+empagliflozin,8,Hypoglycaemia,0.9051911234855652
+empagliflozin,9,Hypotension,0.9003816246986389
+empagliflozin,10,General physical health deterioration,0.8917047381401062
+glimepiride,1,Dizziness,0.933833122253418
+glimepiride,2,Crying,0.9279075264930725
+glimepiride,3,Moaning,0.9221352338790894
+glimepiride,4,Nausea,0.9069041013717651
+glimepiride,5,Hypoglycaemia,0.9041668772697449
+glimepiride,6,Fall,0.9040119647979736
+glimepiride,7,Hypotension,0.9019116163253784
+glimepiride,8,Hypertension,0.9015998840332031
+glimepiride,9,Systolic hypertension,0.8934057950973511
+glimepiride,10,Therapy non-responder,0.8912418484687805
+glipizide,1,Crying,0.9345257878303528
+glipizide,2,Dizziness,0.9343580007553101
+glipizide,3,Moaning,0.9299018979072571
+glipizide,4,Fall,0.9142131805419922
+glipizide,5,Nausea,0.9095776677131653
+glipizide,6,Hypertension,0.9038044810295105
+glipizide,7,Hypoglycaemia,0.9014359712600708
+glipizide,8,Hypotension,0.8954694271087646
+glipizide,9,Systolic hypertension,0.8941492438316345
+glipizide,10,Blood glucose decreased,0.8891157507896423
+glyburide,1,Dizziness,0.9163728356361389
+glyburide,2,Crying,0.9118024706840515
+glyburide,3,Moaning,0.9067454934120178
+glyburide,4,Fall,0.8914026618003845
+glyburide,5,Nausea,0.8832923769950867
+glyburide,6,Hypertension,0.8796335458755493
+glyburide,7,Hypoglycaemia,0.8752092123031616
+glyburide,8,Hypotension,0.8689111471176147
+glyburide,9,Blood glucose decreased,0.86644047498703
+glyburide,10,Systolic hypertension,0.8635438084602356
+linagliptin,1,Dizziness,0.8862389326095581
+linagliptin,2,Crying,0.8536855578422546
+linagliptin,3,Moaning,0.8431979417800903
+linagliptin,4,Hypertension,0.8420711159706116
+linagliptin,5,Hypoglycaemia,0.8315715789794922
+linagliptin,6,Fall,0.8299190998077393
+linagliptin,7,Nausea,0.8291733264923096
+linagliptin,8,General physical health deterioration,0.8128288388252258
+linagliptin,9,Blood glucose decreased,0.8089156150817871
+linagliptin,10,Hypotension,0.8087995648384094
+metformin,1,Crying,0.992171049118042
+metformin,2,Moaning,0.9908962845802307
+metformin,3,Dizziness,0.9906952381134033
+metformin,4,Therapy non-responder,0.9902889728546143
+metformin,5,Nausea,0.9899187088012695
+metformin,6,Malaise,0.9886306524276733
+metformin,7,Hypoglycaemia,0.9885880947113037
+metformin,8,Hypertension,0.9873600602149963
+metformin,9,Hypotension,0.9873522520065308
+metformin,10,Fall,0.9861397743225098
+nateglinide,1,Dizziness,0.9283859729766846
+nateglinide,2,Systolic hypertension,0.9080455303192139
+nateglinide,3,General physical health deterioration,0.8947752118110657
+nateglinide,4,Hypertension,0.8947556614875793
+nateglinide,5,Hypoglycaemia,0.8857229948043823
+nateglinide,6,Crying,0.8598407506942749
+nateglinide,7,Moaning,0.8511826992034912
+nateglinide,8,No adverse event,0.8474860191345215
+nateglinide,9,Blood glucose decreased,0.8473577499389648
+nateglinide,10,Hypotension,0.8457300066947937
+pioglitazone,1,Dizziness,0.9365459084510803
+pioglitazone,2,Crying,0.9295875430107117
+pioglitazone,3,Moaning,0.9261667132377625
+pioglitazone,4,Fall,0.9137938022613525
+pioglitazone,5,Hypertension,0.9127026200294495
+pioglitazone,6,Hypoglycaemia,0.9105240702629089
+pioglitazone,7,Hypotension,0.9088041186332703
+pioglitazone,8,Nausea,0.9059024453163147
+pioglitazone,9,Systolic hypertension,0.8991909623146057
+pioglitazone,10,Blood glucose decreased,0.8979059457778931
+repaglinide,1,Dizziness,0.9081398844718933
+repaglinide,2,Crying,0.9023616909980774
+repaglinide,3,Moaning,0.8944513201713562
+repaglinide,4,Nausea,0.8816040754318237
+repaglinide,5,Fall,0.879679262638092
+repaglinide,6,Hypoglycaemia,0.8791025876998901
+repaglinide,7,Hypertension,0.8706479072570801
+repaglinide,8,Hypotension,0.8699500560760498
+repaglinide,9,Blood glucose decreased,0.8581051826477051
+repaglinide,10,Systolic hypertension,0.8397136926651001
+rosiglitazone,1,Dizziness,0.9340679049491882
+rosiglitazone,2,Crying,0.9269236326217651
+rosiglitazone,3,Moaning,0.9216822385787964
+rosiglitazone,4,Hypertension,0.9080531001091003
+rosiglitazone,5,Fall,0.9066746234893799
+rosiglitazone,6,Hypoglycaemia,0.9039041996002197
+rosiglitazone,7,Hypotension,0.9021852612495422
+rosiglitazone,8,Nausea,0.8974422216415405
+rosiglitazone,9,Systolic hypertension,0.8964201211929321
+rosiglitazone,10,Blood glucose decreased,0.8932667970657349
+saxagliptin,1,Dizziness,0.8910038471221924
+saxagliptin,2,Crying,0.8741558194160461
+saxagliptin,3,Moaning,0.8660473227500916
+saxagliptin,4,Nausea,0.8430307507514954
+saxagliptin,5,Fall,0.8387860059738159
+saxagliptin,6,Hypoglycaemia,0.8364864587783813
+saxagliptin,7,Hypertension,0.8251081705093384
+saxagliptin,8,Hypotension,0.8241075277328491
+saxagliptin,9,Blood glucose decreased,0.809978187084198
+saxagliptin,10,General physical health deterioration,0.7888504266738892
+sitagliptin,1,Dizziness,0.9236857295036316
+sitagliptin,2,Crying,0.9188662171363831
+sitagliptin,3,Moaning,0.9158390164375305
+sitagliptin,4,Fall,0.9058096408843994
+sitagliptin,5,Nausea,0.89825838804245
+sitagliptin,6,Hypertension,0.8970744013786316
+sitagliptin,7,Hypoglycaemia,0.8915596604347229
+sitagliptin,8,Hypotension,0.8872275948524475
+sitagliptin,9,Blood glucose decreased,0.8794493079185486
+sitagliptin,10,Systolic hypertension,0.8793073296546936
