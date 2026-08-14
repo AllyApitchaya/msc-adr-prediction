@@ -28,7 +28,7 @@ Raw and processed data files are not included in this repository, due to file si
 
 ```
 notebooks/     Analysis pipeline (run in order)
-models/        Trained model checkpoints (GAT, concatenation and cross-attention fusion)
+models/        Trained model checkpoints (GAT encoder and cross-attention fusion)
 results/       Metrics, validation outputs, and figure source data
 LICENSE        MIT
 README.md
@@ -67,6 +67,18 @@ The `results/` directory contains the numerical outputs underlying every table a
 | `figs_data/` | Frozen test-set predictions and derived tables |
 
 `results/figs_data/crossattn_preds.npz` holds the frozen test-set predictions used to generate all figures and derived tables, so results can be reproduced without retraining.
+
+## Trained models
+
+The `models/` directory contains the checkpoints used to produce all reported results:
+
+| File | Contents |
+|---|---|
+| `gnn_model.pt` | GAT-only encoder (Table 4.1, "GAT only") |
+| `multimodal_model.pt` | Cross-attention fusion model (headline results) |
+
+`atom_features()` must remain identical across notebooks 04, 06, and 07 for these
+checkpoints to load correctly.
 
 ## Environment
 
