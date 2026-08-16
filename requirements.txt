@@ -1,0 +1,47 @@
+# Environment for msc-adr-prediction
+#
+# Provenance of the version numbers below:
+#   [run]  = recorded during the notebook runs that produced the reported
+#            results (printed in notebook output, or pinned in a pip install cell)
+#   [obs]  = not recorded at the time; captured from a Google Colab runtime on
+#            2026-08-16 and pinned here so the environment is fully specified
+#
+# Original runs: Google Colab, Python 3.10.12, NVIDIA Tesla T4 (16 GB).
+# Note that a current Colab runtime defaults to Python 3.12, which will resolve
+# some of the [obs] pins differently; use a 3.10 environment for an exact match.
+
+# --- Deep learning ---
+torch==2.11.0                 # [run] CUDA build (T4); install from pytorch.org
+torch-geometric==2.8.0.post1  # [obs]
+
+# --- Language model ---
+transformers==4.44.2          # [run] pinned in notebook 05
+# BioBERT checkpoint: dmis-lab/biobert-base-cased-v1.1
+
+# --- Cheminformatics ---
+rdkit==2026.3.3               # [run] notebook 01 printed 2026.03.3
+pubchempy==1.0.5              # [obs]
+
+# --- Classical ML ---
+xgboost==3.3.0                # [obs]
+scikit-learn==1.6.1           # [obs]
+imbalanced-learn==0.14.2      # [obs]
+
+# --- Interpretability ---
+shap==0.52.0                  # [obs]
+
+# --- Data handling and plotting ---
+numpy==2.0.2                  # [obs]
+pandas==2.2.2                 # [obs]
+scipy==1.16.3                 # [obs]
+matplotlib==3.10.0            # [obs]
+tqdm==4.67.3                  # [obs]
+
+# --- Installation notes ---
+# torch-geometric must match the installed torch build. On Colab the pipeline
+# was run with:
+#   !pip install rdkit torch-geometric shap xgboost imbalanced-learn pubchempy -q
+#   !pip install transformers==4.44.2 -q
+# google.colab is used only for Drive mounting and is not installable via pip.
+# If the pinned torch wheel is unavailable for the target CUDA version, install
+# torch first from pytorch.org, then the remaining packages from this file.
