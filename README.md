@@ -28,6 +28,7 @@ Raw and processed data files are not included in this repository, due to file si
 
 ```
 notebooks/     Analysis pipeline (run in order)
+scripts/       Standalone analyses run after the notebooks
 models/        Trained model checkpoints (GAT encoder and cross-attention fusion)
 results/       Metrics, validation outputs, and figure source data
 LICENSE        MIT
@@ -49,6 +50,12 @@ README.md
 | `08_sider_validation.ipynb` | External validation against SIDER |
 | `09_make_figures.ipynb` | Figure generation and verification of all reported numbers |
 
+## Scripts
+
+| Script | Purpose |
+|---|---|
+| `scripts/pair_overlap_audit.py` | Stratifies test performance by whether each drug-ADR pair was seen as a positive during training (dissertation Section 4.2, Table 4.2). Runs from the frozen predictions and `data/processed/train.csv`; no retraining required. |
+
 ## Results
 
 The `results/` directory contains the numerical outputs underlying every table and figure in the dissertation:
@@ -63,10 +70,19 @@ The `results/` directory contains the numerical outputs underlying every table a
 | `atom_attribution_metformin.csv` | Atom occlusion effects (Table 5.1, Figure 5.1) |
 | `interpretability_summary.csv` | Feature separation and occlusion summary |
 | `disproportionality_results.csv` | PRR, ROR, IC per drug-ADR pair |
+| `pair_overlap_audit.csv` | Pair-overlap stratification (Table 4.2), written by `scripts/pair_overlap_audit.py` |
 | `sider_*.csv` | SIDER external validation (Tables 5.2, 5.3) |
 | `figs_data/` | Frozen test-set predictions and derived tables |
 
 `results/figs_data/crossattn_preds.npz` holds the frozen test-set predictions used to generate all figures and derived tables, so results can be reproduced without retraining.
+
+Note on `sider_validation.csv`: this file records the fuzzy-matching run
+(precision 0.320, recall 0.570, coverage 0.255), which the dissertation reports
+only as a sensitivity analysis in Table 5.3. All headline SIDER figures use
+exact matching (precision 0.323, recall 0.504, coverage 0.222) and come from
+`sider_sensitivity.csv` and `sider_per_drug_exact.csv`. Fuzzy matching was
+rejected for headline reporting because manual inspection found clinically
+invalid pairings; the audit trail is in `fuzzy_match_audit.csv`.
 
 ## Trained models
 
@@ -95,6 +111,7 @@ The notebooks are designed to run on Google Colab and should be run in numerical
 2. `03`-`06` train the baseline, unimodal, and multimodal models.
 3. `07`-`08` produce the interpretability audit and external validation.
 4. `09` regenerates every figure and derived table from the stored predictions in `results/figs_data/`, without retraining.
+5. `python scripts/pair_overlap_audit.py --project .` writes `results/pair_overlap_audit.csv`.
 
 Note that `atom_features()` must remain identical across notebooks 04, 06, and 07 for model checkpoints to load correctly.
 
