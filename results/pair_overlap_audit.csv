@@ -1,0 +1,4 @@
+subset,n,positive_rate,auroc
+Previously observed pairs,2204,0.9106,0.6918
+Novel pairs,6812,0.3671,0.7816
+All test pairs,9016,0.5,0.8509
