@@ -1,0 +1,2 @@
+drug,n_background,n_explained,n_dimensions,nsamples,total_mean_abs_shap,max_mean_abs_shap,share_top1,share_top20,share_top100,n_dims_for_half_attribution,explained_score_min,explained_score_max,explained_score_range
+metformin,50,50,768,2000,0.08500782608449037,0.0027901910701606473,0.03282275525299801,0.3692107238696912,0.8084010948924465,34,0.6246452331542969,0.9821057319641113,0.35746049880981445
