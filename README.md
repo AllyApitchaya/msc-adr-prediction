@@ -49,6 +49,7 @@ README.md
 | `07_interpretability_shap.ipynb` | SHAP, atom occlusion, cross-attention weights, test-set prediction export |
 | `08_sider_validation.ipynb` | External validation against SIDER |
 | `09_make_figures.ipynb` | Figure generation and verification of all reported numbers |
+| `10_verify_metrics.ipynb` | Re-derives every headline number in the dissertation from the frozen predictions and result CSVs (Tables 4.1, 4.2, Sections 5.1, 5.4, Appendix A) |
 
 ## Scripts
 
@@ -112,6 +113,7 @@ The notebooks are designed to run on Google Colab and should be run in numerical
 3. `07`-`08` produce the interpretability audit and external validation.
 4. `09` regenerates every figure and derived table from the stored predictions in `results/figs_data/`, without retraining.
 5. `python scripts/pair_overlap_audit.py --project .` writes `results/pair_overlap_audit.csv`.
+6. `10` re-derives and cross-checks every number quoted in the dissertation against the frozen result files.
 
 Note that `atom_features()` must remain identical across notebooks 04, 06, and 07 for model checkpoints to load correctly.
 
