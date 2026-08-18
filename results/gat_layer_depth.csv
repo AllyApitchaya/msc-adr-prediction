@@ -1,0 +1,4 @@
+n_layers,best_val_auroc,best_epoch,n_parameters,delta_vs_2_layers
+1,0.8702,9,237697,-0.0129
+2,0.8831,9,255809,0.0
+3,0.8827,8,322113,-0.0004
