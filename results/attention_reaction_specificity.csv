@@ -1,0 +1,43 @@
+drug,n_atoms,reaction_a,reaction_b,pearson_r
+acarbose,44,Lactic acidosis,Nausea,0.9650091678788209
+acarbose,44,Lactic acidosis,Urinary tract infection,0.36994338324063847
+acarbose,44,Nausea,Urinary tract infection,0.2577753124248818
+canagliflozin,31,Lactic acidosis,Nausea,0.9107214534257413
+canagliflozin,31,Lactic acidosis,Urinary tract infection,0.07707927773896746
+canagliflozin,31,Nausea,Urinary tract infection,0.34009921454112024
+dapagliflozin,28,Lactic acidosis,Nausea,0.9523521183292517
+dapagliflozin,28,Lactic acidosis,Urinary tract infection,0.13373927526443777
+dapagliflozin,28,Nausea,Urinary tract infection,0.32446197007991967
+empagliflozin,31,Lactic acidosis,Nausea,0.9581762607705331
+empagliflozin,31,Lactic acidosis,Urinary tract infection,0.27861329968946386
+empagliflozin,31,Nausea,Urinary tract infection,0.4600713312403168
+glimepiride,34,Lactic acidosis,Nausea,0.9831872059387093
+glimepiride,34,Lactic acidosis,Urinary tract infection,0.6648950634300669
+glimepiride,34,Nausea,Urinary tract infection,0.7793709551504902
+glipizide,31,Lactic acidosis,Nausea,0.9645345028614593
+glipizide,31,Lactic acidosis,Urinary tract infection,0.5214606805882512
+glipizide,31,Nausea,Urinary tract infection,0.5424000657260875
+glyburide,33,Lactic acidosis,Nausea,0.9603714240112227
+glyburide,33,Lactic acidosis,Urinary tract infection,0.7755569718619193
+glyburide,33,Nausea,Urinary tract infection,0.8600144449827577
+linagliptin,35,Lactic acidosis,Nausea,0.9395565028102885
+linagliptin,35,Lactic acidosis,Urinary tract infection,0.6076049722215405
+linagliptin,35,Nausea,Urinary tract infection,0.44533211067778566
+metformin,9,Lactic acidosis,Nausea,0.996271496591158
+metformin,9,Lactic acidosis,Urinary tract infection,0.2672638367135584
+metformin,9,Nausea,Urinary tract infection,0.3214252364493273
+nateglinide,23,Lactic acidosis,Nausea,0.8303235094561033
+nateglinide,23,Lactic acidosis,Urinary tract infection,0.4208254080111856
+nateglinide,23,Nausea,Urinary tract infection,0.7230386202503302
+pioglitazone,25,Lactic acidosis,Nausea,0.9267535960902832
+pioglitazone,25,Lactic acidosis,Urinary tract infection,0.6066156774686612
+pioglitazone,25,Nausea,Urinary tract infection,0.8336341742875187
+repaglinide,33,Lactic acidosis,Nausea,0.920720347382349
+repaglinide,33,Lactic acidosis,Urinary tract infection,0.6090746439312927
+repaglinide,33,Nausea,Urinary tract infection,0.7944450905717659
+saxagliptin,23,Lactic acidosis,Nausea,0.993331364453229
+saxagliptin,23,Lactic acidosis,Urinary tract infection,0.9083816143134363
+saxagliptin,23,Nausea,Urinary tract infection,0.9239584394245144
+sitagliptin,28,Lactic acidosis,Nausea,0.9159922624267252
+sitagliptin,28,Lactic acidosis,Urinary tract infection,0.5587783827717733
+sitagliptin,28,Nausea,Urinary tract infection,0.7484853728076603
