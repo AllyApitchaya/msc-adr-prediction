@@ -1,0 +1,6 @@
+control,n,retained,positive_rate,auroc,ci_low,ci_high,adr_freq_auroc
+None (all test pairs),9016,1.0,0.5,0.8509,0.8427,0.8586,0.6608
+Pair recurrence,6812,0.756,0.367,0.7816,0.7695,0.7937,0.5499
+ADR reporting frequency,6252,0.693,0.5,0.8227,0.8128,0.8336,0.5
+Recurrence + frequency,4430,0.491,0.5,0.7572,0.7427,0.7712,0.5
+Recurrence + frequency + drug,2382,0.264,0.5,0.5812,0.5591,0.6041,0.5
