@@ -1,0 +1,7 @@
+subset,model,n,auroc,ci_low,ci_high
+Previously observed,fusion,2204,0.6918,0.6537,0.7286
+Previously observed,count_only,2204,0.7876,0.761,0.813
+Novel pairs,fusion,6812,0.7816,0.7697,0.7931
+Novel pairs,count_only,6812,0.5645,0.5574,0.5721
+All test pairs,fusion,9016,0.8509,0.8426,0.859
+All test pairs,count_only,9016,0.7413,0.7334,0.749
