@@ -231,5 +231,4 @@ data/processed/*
 *.txt
 
 # Model checkpoints and outputs
-models/
 logs/
